@@ -1,16 +1,18 @@
-# shopping_app
+# Shopping App
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A simple shopping app UI.
+## Features
+* State persistance
+* Selecting size of the shoe
+* Adding and removing products from cart
+## Running Locally
+After cloning this repository, migrate to `shopping_app` folder. Then run the following commands to run your app:
+```
+  flutter pub get
+  open -a simulator (to get iOS Simulator)
+  flutter run
+```
+## Tech Used
+Flutter, Provider
+## Feedback
+If you have any feedback, please reach out to me at raj.rishit3000@gmail.com
